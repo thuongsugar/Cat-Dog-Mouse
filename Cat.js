@@ -3,3 +3,4 @@ function Cat(){
 }
 
 console.log(new Cat())
+module.exports = Cat;

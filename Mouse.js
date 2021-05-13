@@ -11,3 +11,4 @@ class Mouse {
 }
 var mouse = new Mouse('Mina', 10, 20);
 console.log(mouse.getInfo());
+module.exports = mouse;
