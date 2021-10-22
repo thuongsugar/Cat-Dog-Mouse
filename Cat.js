@@ -1,8 +1,9 @@
 function Cat() {
     (this.name = "Tom"), (this.eatList = []);
 }
-function Cat(name, listEat) {
+function Cat(name, listEat, width) {
     (this.name = name), (this.eatList = listEat);
+    this.width = width;
 }
 Cat.prototype.eat = function (mouse) {
     this.eatList.push(mouse);
