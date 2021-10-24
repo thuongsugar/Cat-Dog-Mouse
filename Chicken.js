@@ -3,3 +3,4 @@ function Chicken() {
     this.width = 2.0;
     this.age = 10;
 }
+module.exports = Chicken;
