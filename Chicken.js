@@ -3,3 +3,8 @@ function Chicken() {
     this.width = 2.0;
     this.age = 10;
 }
+function Chicken(name, width, age) {
+    this.name = name;
+    this.width = width;
+    this.age = age;
+}
