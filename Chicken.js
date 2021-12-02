@@ -3,3 +3,5 @@ function Chicken() {
     this.width = 2.0;
     this.age = 10;
 }
+const ck = new Chicken();
+console.log(ck.age);
