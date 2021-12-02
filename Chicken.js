@@ -10,3 +10,5 @@ function Chicken(name, width, age) {
     this.width = width;
     this.age = age;
 }
+
+module.exports = Chicken;
