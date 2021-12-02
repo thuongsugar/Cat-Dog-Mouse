@@ -5,3 +5,8 @@ function Chicken() {
 }
 const ck = new Chicken();
 console.log(ck.age);
+function Chicken(name, width, age) {
+    this.name = name;
+    this.width = width;
+    this.age = age;
+}
